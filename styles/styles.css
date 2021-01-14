@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+body{
+    position: relative;
+}
+.navlogo{
+    padding: 10px;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+main{
+    height: 50vh;
+    background-image: url("../images/cafe-layout-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative
+}
+
+.wrapper{
+    height: 100%;
+}
+
+/* .side-wrapper{
+    height:100%;
+} */
+.cover-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    display : block;
+    width: 100%;
+    height: 100%;
+}
+
+.tagline{
+    text-align: center;
+    color: white;
+}
+
+.tagline-des {
+    font-style: oblique;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+}
+
+main strong {
+    font-size: 4rem;    
+    letter-spacing: 5px;
+}
+
+.section-wrapper{
+    position:relative;
+    font-family: 'EB Garamond', serif;
+}
+
+.header-wrapper{
+    line-height: 2;
+    text-align: center;
+}
+
+.footer-wrapper{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.space{
+    height: 2rem;
+    width: auto;
+}
+
+.img-wrapper{
+    width:100%;
+}
+.content-wrapper{
+    text-align: center
+}
+
+.des-title{
+    font-weight: 900;
+    color:rgba(0,0,0,0.2) ;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.des-word{
+    font-size: 1rem;
+}
+
+.des-btn{
+    text-decoration: none;
+    background-color:#27AA9F;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border-radius: 5em;
+}
+
+.video-wrapper{
+    height: 300px;
+}
+
+.footer-wrapper{
+    height: 100px;
+    width: 100%;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.footer-des{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    text-transform: none;
+}
