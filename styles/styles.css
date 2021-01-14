@@ -155,3 +155,8 @@ main strong {
     font-size: 1rem;
     color:rgba(0,0,0,0.6) ;
 }
+
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
