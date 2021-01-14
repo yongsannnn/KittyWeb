@@ -123,3 +123,35 @@ main strong {
     letter-spacing: 0px;
     text-transform: none;
 }
+
+.menu-hero{
+    height: 30vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5df5bacb2bc9487db2590aad/1577351342449-RMR5LUYXY9TZZ4FMZGZL/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/428_02532.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative
+}
+
+.box{
+    height: 100px;
+    background-color: pink;
+}
+
+.box2{
+    height: 100px;
+    background-color: green;
+}
+
+.menu-title{
+    font-weight: 900;
+    color:rgba(0,0,0,) ;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.menu-word{
+    font-size: 1rem;
+    color:rgba(0,0,0,0.6) ;
+}
